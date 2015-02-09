@@ -40,7 +40,7 @@ function getAddressIP($ip)
 	$continent = checkLanguagesGeoIP($record->continent->names);
 
 
-	// "special" values, can appears but without with pt-BR traduction
+	// "special" values, it can appears but without pt-BR traduction
 	$subdivisions = null;
 	if(isset($record->subdivisions))
 	{
